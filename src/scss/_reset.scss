@@ -1,0 +1,14 @@
+// Import du reset CSS moderne
+@use 'modern-css-reset/dist/reset.min.css';
+@use 'variable';
+
+// Reset supplémentaire personnalisé si nécessaire
+html {
+  box-sizing: border-box;
+  font-family: var(--font-primary);
+}
+
+body {
+  overflow-x: hidden;
+  line-height: 1.6;
+} 

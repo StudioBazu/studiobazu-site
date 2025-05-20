@@ -1,0 +1,39 @@
+// Variables CSS (custom properties)
+
+:root {
+  // Couleurs
+  --color-primary: #3167FF;
+  --color-black: #000;
+  --color-grey: #D5D5D5;
+
+  // Police
+  --font-primary: 'Sora', sans-serif;
+
+  // Breakpoints
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+
+  // Conteneurs
+  --container-sm: 540px;
+  --container-md: 720px;
+  --container-lg: 960px;
+  --container-xl: 1376px;
+  
+  // Espacement
+  --spacing-xs: 0.3125rem;
+  --spacing-sm: 0.625rem;
+  --spacing-md: 1.25rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 3.125rem;
+
+  // Transitions
+  --transition-default: all 0.3s ease;
+
+  // Z-index
+  --z-index-base: 1;
+  --z-index-dropdown: 1000;
+  --z-index-modal: 2000;
+  --z-index-tooltip: 3000;
+} 
